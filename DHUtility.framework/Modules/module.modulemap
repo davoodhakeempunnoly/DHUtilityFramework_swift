@@ -1,0 +1,10 @@
+framework module DHUtility {
+  umbrella header "DHUtility.h"
+
+  export *
+  module * { export * }
+}
+
+module DHUtility.Swift {
+    header "DHUtility-Swift.h"
+}
