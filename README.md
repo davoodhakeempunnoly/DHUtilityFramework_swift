@@ -5,6 +5,8 @@ Integration:
  1. Copy and Add DHUtilityFramework to your project.
  2. Add it in the Embedded Binaries(Targets -> General -> Embedded Binaries(in Xcode 8.2))
  3. import DHUtilityFramework "import DHUtility"
+ 
+ 
 Available Methods:
 
  1. func colorFromHex(hexString: String) // get the color from hex code
