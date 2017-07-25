@@ -14,6 +14,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
     @IBOutlet var colorView: UIView!
     @IBOutlet var hexCodeTextField: UITextField!
     @IBOutlet var validityLabel: UILabel!
+    @IBOutlet var calculateLabel: UILabel!
     
     let dhInstance = DHUtilityManager.sharedInstance
     
@@ -38,6 +39,8 @@ class ViewController: UIViewController,UITextFieldDelegate {
         print(dhInstance.nillCheck(stringToCheck: nil))
         print(dhInstance.nillCheck(stringToCheck: ""))
         print(dhInstance.nillCheck(stringToCheck: "Check"))
+        
+        print(dhInstance.calculateHeightAndWidth("FC BARCELONA AND REAL MADRID FC", calculateLabel.frame.size, calculateLabel.font.fontName, 15))
     }
     @IBAction func validateEmailBtnTapped(_ sender: Any) {
         

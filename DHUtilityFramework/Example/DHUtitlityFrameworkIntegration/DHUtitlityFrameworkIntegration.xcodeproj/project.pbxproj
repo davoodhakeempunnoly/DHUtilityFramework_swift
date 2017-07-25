@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9E25F5001F27456C00E0967E /* DHUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E25F4FE1F27456400E0967E /* DHUtility.framework */; };
-		9E25F5011F27456C00E0967E /* DHUtility.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9E25F4FE1F27456400E0967E /* DHUtility.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9E25F5041F274CB100E0967E /* DHUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E25F5021F274CA800E0967E /* DHUtility.framework */; };
+		9E25F5051F274CB100E0967E /* DHUtility.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9E25F5021F274CA800E0967E /* DHUtility.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EB35FB361E80F838009D5164 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35FB351E80F838009D5164 /* AppDelegate.swift */; };
 		EB35FB381E80F838009D5164 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35FB371E80F838009D5164 /* ViewController.swift */; };
 		EB35FB3B1E80F838009D5164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB35FB391E80F838009D5164 /* Main.storyboard */; };
@@ -43,7 +43,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9E25F5011F27456C00E0967E /* DHUtility.framework in Embed Frameworks */,
+				9E25F5051F274CB100E0967E /* DHUtility.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,7 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9E25F4FE1F27456400E0967E /* DHUtility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DHUtility.framework; sourceTree = "<group>"; };
+		9E25F5021F274CA800E0967E /* DHUtility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DHUtility.framework; sourceTree = "<group>"; };
 		EB35FB321E80F838009D5164 /* DHUtitlityFrameworkIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHUtitlityFrameworkIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB35FB351E80F838009D5164 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB35FB371E80F838009D5164 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E25F5001F27456C00E0967E /* DHUtility.framework in Frameworks */,
+				9E25F5041F274CB100E0967E /* DHUtility.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +117,7 @@
 		EB35FB341E80F838009D5164 /* DHUtitlityFrameworkIntegration */ = {
 			isa = PBXGroup;
 			children = (
-				9E25F4FE1F27456400E0967E /* DHUtility.framework */,
+				9E25F5021F274CA800E0967E /* DHUtility.framework */,
 				EB35FB351E80F838009D5164 /* AppDelegate.swift */,
 				EB35FB371E80F838009D5164 /* ViewController.swift */,
 				EB35FB391E80F838009D5164 /* Main.storyboard */,
