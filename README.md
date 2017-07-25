@@ -3,23 +3,23 @@ Utilities
 
 1. Get Color from Hex String
 
-    public func colorFromHex(hexString: String) -> UIColor
+       public func colorFromHex(hexString: String) -> UIColor
 
 2. Format Date by providing date and Formatter
 
-    public func dateFormatter(date: Date, formatterString: String) -> String
+       public func dateFormatter(date: Date, formatterString: String) -> String
 
 3. Get customised date string by providing datestring, inputDateFromatterString and Output Date Formatter String 
 
-    public func dateFormatter(dateString: String, inputDateformatterString: String, outputDateFormatterString: String) -> String
+       public func dateFormatter(dateString: String, inputDateformatterString: String, outputDateFormatterString: String) -> String
 
 4. Get Time ago Since Date (ex:1 day Ago, 1 minute Ago etc)
 
-   public func timeAgoSinceDate(_ date: Date, numericDates: Bool) -> String
+       public func timeAgoSinceDate(_ date: Date, numericDates: Bool) -> String
 
-5. Nill Check 
-
-    public func nillCheck(stringToCheck: String?) -> String
+5. Nill Check   
+    
+       public func nillCheck(stringToCheck: String?) -> String
 
 6.Email Validation Check
 
