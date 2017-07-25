@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9E25F4FC1F27416E00E0967E /* DHUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E25F4FA1F27416200E0967E /* DHUtility.framework */; };
-		9E25F4FD1F27416E00E0967E /* DHUtility.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9E25F4FA1F27416200E0967E /* DHUtility.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9E25F5001F27456C00E0967E /* DHUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E25F4FE1F27456400E0967E /* DHUtility.framework */; };
+		9E25F5011F27456C00E0967E /* DHUtility.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9E25F4FE1F27456400E0967E /* DHUtility.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EB35FB361E80F838009D5164 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35FB351E80F838009D5164 /* AppDelegate.swift */; };
 		EB35FB381E80F838009D5164 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35FB371E80F838009D5164 /* ViewController.swift */; };
 		EB35FB3B1E80F838009D5164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB35FB391E80F838009D5164 /* Main.storyboard */; };
@@ -17,8 +17,6 @@
 		EB35FB431E80F838009D5164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB35FB411E80F838009D5164 /* LaunchScreen.storyboard */; };
 		EB35FB4E1E80F838009D5164 /* DHUtitlityFrameworkIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35FB4D1E80F838009D5164 /* DHUtitlityFrameworkIntegrationTests.swift */; };
 		EB35FB591E80F838009D5164 /* DHUtitlityFrameworkIntegrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35FB581E80F838009D5164 /* DHUtitlityFrameworkIntegrationUITests.swift */; };
-		EB35FB7A1E84EA53009D5164 /* NavigationDrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35FB791E84EA53009D5164 /* NavigationDrawerView.swift */; };
-		EB35FB7C1E84EA63009D5164 /* NavigationDrawerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB35FB7B1E84EA63009D5164 /* NavigationDrawerView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +43,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9E25F4FD1F27416E00E0967E /* DHUtility.framework in Embed Frameworks */,
+				9E25F5011F27456C00E0967E /* DHUtility.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,7 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9E25F4FA1F27416200E0967E /* DHUtility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DHUtility.framework; sourceTree = "<group>"; };
+		9E25F4FE1F27456400E0967E /* DHUtility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DHUtility.framework; sourceTree = "<group>"; };
 		EB35FB321E80F838009D5164 /* DHUtitlityFrameworkIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHUtitlityFrameworkIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB35FB351E80F838009D5164 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB35FB371E80F838009D5164 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,8 +66,6 @@
 		EB35FB541E80F838009D5164 /* DHUtitlityFrameworkIntegrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHUtitlityFrameworkIntegrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB35FB581E80F838009D5164 /* DHUtitlityFrameworkIntegrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHUtitlityFrameworkIntegrationUITests.swift; sourceTree = "<group>"; };
 		EB35FB5A1E80F838009D5164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB35FB791E84EA53009D5164 /* NavigationDrawerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationDrawerView.swift; sourceTree = "<group>"; };
-		EB35FB7B1E84EA63009D5164 /* NavigationDrawerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationDrawerView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E25F4FC1F27416E00E0967E /* DHUtility.framework in Frameworks */,
+				9E25F5001F27456C00E0967E /* DHUtility.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,11 +117,9 @@
 		EB35FB341E80F838009D5164 /* DHUtitlityFrameworkIntegration */ = {
 			isa = PBXGroup;
 			children = (
-				9E25F4FA1F27416200E0967E /* DHUtility.framework */,
+				9E25F4FE1F27456400E0967E /* DHUtility.framework */,
 				EB35FB351E80F838009D5164 /* AppDelegate.swift */,
 				EB35FB371E80F838009D5164 /* ViewController.swift */,
-				EB35FB791E84EA53009D5164 /* NavigationDrawerView.swift */,
-				EB35FB7B1E84EA63009D5164 /* NavigationDrawerView.xib */,
 				EB35FB391E80F838009D5164 /* Main.storyboard */,
 				EB35FB3F1E80F838009D5164 /* Assets.xcassets */,
 				EB35FB411E80F838009D5164 /* LaunchScreen.storyboard */,
@@ -262,7 +256,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB35FB431E80F838009D5164 /* LaunchScreen.storyboard in Resources */,
-				EB35FB7C1E84EA63009D5164 /* NavigationDrawerView.xib in Resources */,
 				EB35FB401E80F838009D5164 /* Assets.xcassets in Resources */,
 				EB35FB3B1E80F838009D5164 /* Main.storyboard in Resources */,
 			);
@@ -290,7 +283,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB35FB381E80F838009D5164 /* ViewController.swift in Sources */,
-				EB35FB7A1E84EA53009D5164 /* NavigationDrawerView.swift in Sources */,
 				EB35FB361E80F838009D5164 /* AppDelegate.swift in Sources */,
 				EB35FB3E1E80F838009D5164 /* DHUtitlityFrameworkIntegration.xcdatamodeld in Sources */,
 			);

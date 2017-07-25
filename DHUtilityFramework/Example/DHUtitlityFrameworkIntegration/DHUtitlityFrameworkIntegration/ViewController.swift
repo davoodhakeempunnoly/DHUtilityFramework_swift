@@ -14,7 +14,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
     @IBOutlet var colorView: UIView!
     @IBOutlet var hexCodeTextField: UITextField!
     @IBOutlet var validityLabel: UILabel!
-
+    
     let dhInstance = DHUtilityManager.sharedInstance
     
     override func viewDidLoad() {
@@ -25,7 +25,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
         print(dhInstance.dateFormatter(date: Date(), formatterString: "dd/MM/YYYY"))
         print(dhInstance.dateFormatter(date: Date(), formatterString: "dd YYY"))
         print(dhInstance.dateFormatter(date: Date(), formatterString: "dd MM YYYY hh:mm"))
-       
+        
         print("#########################################TIME AGO SINCE DATE#################################")
         let twentyFiveYearsdate = Date.init(timeIntervalSinceReferenceDate: -5000000*60)
         print(dhInstance.timeAgoSinceDate(twentyFiveYearsdate, numericDates: true))
@@ -47,17 +47,18 @@ class ViewController: UIViewController,UITextFieldDelegate {
         if isValid {
             self.validityLabel.text = "Valid"
             self.validityLabel.textColor = UIColor.green
+            dhInstance.showAlertWithMessage(title: "", message: "Valid Email", presentingViewController: self)
         }
-        dhInstance.showAlertWithMessage(title: "", message: "Message", presentingViewController: self)
+        
     }
     
     @IBAction func applyBtnTapped(_ sender: Any) {
+        if self.hexCodeTextField.text?.characters.count == 0{
+            return
+        }
         self.colorView.backgroundColor = dhInstance.colorFromHex(hexString: self.hexCodeTextField.text!)
     }
     @IBAction func menuBtnTapped(_ sender: Any) {
-        let customView = NavigationDrawerView.instanceFromNib
-        self.view.addSubview(customView())
-        customView().frame = UIScreen.main.bounds
     }
     public func textFieldShouldReturn(_ textField: UITextField) -> Bool{
         textField .resignFirstResponder()
@@ -65,10 +66,11 @@ class ViewController: UIViewController,UITextFieldDelegate {
     }
     
     
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
