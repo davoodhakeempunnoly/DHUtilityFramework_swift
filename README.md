@@ -32,3 +32,7 @@ Utilities
     public func showAlert(title: String, message: String, buttonTitle: String, viewController: UIViewController, handler: ((UIAlertAction) -> Swift.Void)?)
 
     public func showAlert(title: String, message: String, okButtonTitle: String, cancelBtnTitle: String, viewController: UIViewController, tintColor: UIColor, handler: ((UIAlertAction) -> Swift.Void)?)
+   
+8. Calculate Size Needed For a text
+
+       public func calculateHeightAndWidth(_ textToCheck: String, _ sizeOfLabelView: CGSize, _ fontName: String, _ fontSize: CGFloat) -> CGSize
